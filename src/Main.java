@@ -15,5 +15,9 @@ public class Main {
         Wizard w = new Wizard();
         w.name = "スガワラ";
         w.hp = 100;
+
+        // wのメソッドにより、h1の体力を回復させる
+        w.heal(h1);
+        w.heal(h2);
     }
 }
