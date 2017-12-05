@@ -5,5 +5,5 @@ public class Matango {
     void run() {
         System.out.println("おばけキノコ" + this.suffix + "は、逃げ出した！");
     }
-    
+
 }
