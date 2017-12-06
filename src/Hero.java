@@ -21,4 +21,10 @@ public class Hero {
         System.out.println("GAMEOVER");
         System.out.println("最終HPは、" + this.hp + "でした。");
     }
+
+    // Heroクラスのインスタンスが生成された時に、自動的に読み込む部分
+    Hero() {
+        this.hp = 100;
+    }
+
 }
