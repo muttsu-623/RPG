@@ -23,8 +23,12 @@ public class Hero {
     }
 
     // Heroクラスのインスタンスが生成された時に、自動的に読み込む部分
-    Hero() {
+    Hero(String name) {
         this.hp = 100;
+        this.name = name;
+    }
+    Hero() {
+        this("ダミー")
     }
 
 }
