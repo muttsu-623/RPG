@@ -2,6 +2,8 @@ public class Hero {
     String name;
     int hp;
 
+    static int money;
+
     void sleep() {
         this.hp = 100;
         System.out.println(this.name + "は、眠って回復した！");
@@ -20,6 +22,10 @@ public class Hero {
         System.out.println(this.name + "は、逃げた！");
         System.out.println("GAMEOVER");
         System.out.println("最終HPは、" + this.hp + "でした。");
+    }
+
+    static void setRandomMoney() {
+        Hero.money = (int) (Math.random()*1000);
     }
 
     // Heroクラスのインスタンスが生成された時に、自動的に読み込む部分

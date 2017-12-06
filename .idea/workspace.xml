@@ -27,11 +27,13 @@
       <file leaf-file-name="Hero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="233">
+              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,12 +210,12 @@
       <updated>1512286874692</updated>
       <workItem from="1512286879593" duration="7000" />
       <workItem from="1512287009235" duration="885000" />
-      <workItem from="1512493306218" duration="4678000" />
+      <workItem from="1512493306218" duration="5247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5570000" />
+    <option name="totallyTimeSpent" value="6139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="190" y="23" width="1176" height="720" extended-state="0" />
@@ -272,8 +274,10 @@
         <state relative-caret-position="66">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -326,11 +330,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="233">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
           </folding>
         </state>
       </provider>
