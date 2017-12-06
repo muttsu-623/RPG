@@ -16,8 +16,11 @@ public class Main {
         w.name = "スガワラ";
         w.hp = 100;
 
-        // wのメソッドにより、h1の体力を回復させる
-        w.heal(h1);
-        w.heal(h2);
+        // Heroクラスのmoneyをランダムに設定.
+        Hero.setRandomMoney();
+        System.out.println("Heroの所持金は、" + Hero.money + "円に設定されました。");
+
+
+
     }
 }
