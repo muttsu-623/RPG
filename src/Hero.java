@@ -50,7 +50,7 @@ public class Hero {
         this.name = name;
     }
     Hero() {
-        this("ダミー")
+        this("ダミー");
     }
 
 }
