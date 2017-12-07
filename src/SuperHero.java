@@ -9,4 +9,9 @@ public class SuperHero extends Hero {
         this.flying = false;
         System.out.println(this.getName() + "は、着地した。");
     }
+    public void run() {
+        System.out.println(this.getName() + "は、撤退した！");
+        System.out.println("GAMEOVER");
+        System.out.println("最終HPは、" + this.getName() + "でした。");
+    }
 }
