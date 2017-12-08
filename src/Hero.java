@@ -1,8 +1,8 @@
 public class Hero {
 
     // フィールド
-    private String name;
     private int hp;
+    private String name;
     private static int money;
 
     //getter & setter
@@ -16,8 +16,17 @@ public class Hero {
     public int getHp() {
         return this.hp;
     }
+
     public void setHp(int hp) {
         this.hp = hp;
+    }
+
+    public void setMoney(int money) {
+        Hero.money = money;
+    }
+
+    public int getMoney() {
+        return Hero.money;
     }
 
     public static void setRandomMoney() {
