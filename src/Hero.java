@@ -1,8 +1,8 @@
 public class Hero {
 
     // フィールド
-    private int hp;
     private String name;
+    private int hp;
     private static int money;
 
     //getter & setter
@@ -16,17 +16,8 @@ public class Hero {
     public int getHp() {
         return this.hp;
     }
-
     public void setHp(int hp) {
         this.hp = hp;
-    }
-
-    public void setMoney(int money) {
-        Hero.money = money;
-    }
-
-    public int getMoney() {
-        return Hero.money;
     }
 
     public static void setRandomMoney() {
@@ -53,19 +44,13 @@ public class Hero {
         System.out.println("最終HPは、" + this.hp + "でした。");
     }
 
-    public void attack(Matango m) {
-        System.out.println(this.name + "の攻撃！");
-        m.setHp() -= 5;
-        System.out.println(m.getName() + "は5のダメージを受けた！");
-    }
-
     // Heroクラスのインスタンスが生成された時に、自動的に読み込む部分
     Hero(String name) {
         this.hp = 100;
         this.name = name;
     }
     Hero() {
-        this("ダミー");
+        this("ダミー")
     }
 
 }
