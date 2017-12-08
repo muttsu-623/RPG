@@ -7,4 +7,12 @@ public class Matango {
         System.out.println("おばけキノコ" + this.suffix + "は、逃げ出した！");
     }
 
+    public int setHp() {
+        return this.hp;
+    }
+
+    public String getName() {
+        return "おはけキノコ" + this.suffix;
+    }
+
 }
